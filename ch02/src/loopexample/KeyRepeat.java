@@ -2,7 +2,7 @@ package loopexample;
 
 import java.util.Scanner;
 
-public class KyeRepeat {
+public class KeyRepeat {
 
 	public static void main(String[] args) {
 		// "y" - 계속 반복, "n" - 반복 중단, 그 이외 키는 지원x
