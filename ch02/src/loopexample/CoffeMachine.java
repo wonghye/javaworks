@@ -17,7 +17,7 @@ public class CoffeMachine {
 				coffee -= 1;
 			}
 			else if(money > 500) {
-				System.out.println("거스름돈 " + (money - 500) + "원을 돌려주고 커피가 나옵니다. ");
+				System.out.printf("거스름돈 " + (money - 500) + "원을 돌려주고 커피가 나옵니다. ");
 				coffee -= 1;
 			}
 			else {
