@@ -2,7 +2,7 @@ package builtinclass;
 
 import java.util.Calendar;
 
-public class CanlenderEx {
+public class CalendarEx {
 
 	public static void main(String[] args) {
 		
