@@ -20,12 +20,13 @@ public class Banking {
 			System.out.print("선택>");
 			
 			//int selNum = sc.nextInt(); // 메뉴번호 입력 (대기) - 예외 (오류)발생
-			String selNum = sc.next(); // 메뉴 번호를 문자로 입력
+			//String selNum = sc.next(); // 메뉴 번호를 문자로 입력
+			int selNum = Integer.parseInt(sc.next()); // 메뉴 번호를 문자로 입력
 			switch(selNum) {
-			case "1":
+			case 1:
 				while(true) {
 					System.out.print("예금액>");
-					money = sc.nextInt();// money 변수 사용 가능
+					money = Integer.parseInt(sc.next());// money 변수 사용 가능
 					if(money < 0) {
 						System.out.println("음수를 입력할 수 없습니다.다시 입력하세요.");
 					}else {
@@ -34,10 +35,10 @@ public class Banking {
 						break;
 					}
 				}
-			case "2":
+			case 2:
 				while(true) {
 					System.out.print("출금액>");
-					money = sc.nextInt();
+					money = Integer.parseInt(sc.next());
 					if(money > balance ) {
 						System.out.println("잔액이 부족합니다.다시 입력하세요.");
 					}else if(money < 0) {
@@ -48,10 +49,10 @@ public class Banking {
 						break;
 					}
 				}
-			case "3":
+			case 3:
 				System.out.printf("잔액>%,d원\n", balance );
 				break;
-			case "4":
+			case 4:
 				run = false;  // while 벗어남
 				break;
 			default:
