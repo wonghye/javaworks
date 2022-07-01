@@ -2,14 +2,14 @@ package reference;
 
 public class Student {
 	//필드
-	int studentId; //학번
+	int studentID; //학번
 	String studentName; //이름
 	Subject korean;
 	Subject math;
 	
 	//생성자
-	public Student( int studentId, String studentName) {
-		this.studentId = studentId;
+	public Student( int studentID, String studentName) {
+		this.studentID = studentID;
 		this.studentName = studentName;
 		
 		korean = new Subject();
