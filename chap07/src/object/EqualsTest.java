@@ -22,6 +22,13 @@ public class EqualsTest {
 		//저장된 문자열 값 비교
 		System.out.println(book1.equals(book2));  // true
 		
+		//hashCode()테스트 - 십진수
+		System.out.println(color1.hashCode());
+		System.out.println(color2.hashCode());
+		
+		System.out.println(book1.hashCode());  // 12
+		System.out.println(book2.hashCode());
+		
 	}
 
 }

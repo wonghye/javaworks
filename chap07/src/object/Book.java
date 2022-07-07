@@ -25,6 +25,13 @@ public class Book {
 		}
 		return false; // bookNumber가 일치하지않으면 
 	}
+
+	@Override
+	public int hashCode() {
+		return bookNumber;  // int형
+	}
+	
+	
 	
 	
 	
