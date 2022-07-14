@@ -1,5 +1,5 @@
 package object.clone;
-
+//
 public class Point {
 	int x ,y;
 	

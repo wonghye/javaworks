@@ -1,5 +1,5 @@
 package object;
-
+//
 public class ToStringExample {
 
 	public static void main(String[] args) {

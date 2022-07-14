@@ -1,5 +1,5 @@
 package string;
-
+//
 public class StringSubString {
 
 	public static void main(String[] args) {

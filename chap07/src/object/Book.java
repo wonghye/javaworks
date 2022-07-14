@@ -1,5 +1,5 @@
 package object;
-
+//
 public class Book {
 	//필드
 	int bookNumber;  // 책 번호

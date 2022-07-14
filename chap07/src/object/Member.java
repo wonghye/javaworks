@@ -1,5 +1,5 @@
 package object;
-
+//
 public class Member {
 	public String id;
 	

@@ -1,5 +1,5 @@
 package object.clone;
-
+//
 public class Circle implements Cloneable{
 	//clone()을 사용하려면 cloneable 인터페이스 구현해야함
 	Point point;  // 중심점

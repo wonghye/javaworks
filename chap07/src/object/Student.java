@@ -1,5 +1,5 @@
 package object;
-
+//
 public class Student {
 	
 	private String studentNum; // 학번
