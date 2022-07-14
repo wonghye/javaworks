@@ -1,4 +1,4 @@
-package banking;
+package banking_array;
 //vo (value objdect)
 public class Account {
 	
