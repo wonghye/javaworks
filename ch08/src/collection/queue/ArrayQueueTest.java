@@ -17,7 +17,7 @@ public class ArrayQueueTest {
 		System.out.println(queue.deQueue());
 		System.out.println(queue.deQueue());
 		System.out.println(queue.deQueue());
-		System.out.println(queue.deQueue());  //-1
+		System.out.println(queue.deQueue());  //-1 : 리스트 범위 초과
 		
 	}
 
